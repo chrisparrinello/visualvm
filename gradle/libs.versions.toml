@@ -1,0 +1,9 @@
+[versions]
+visualvmLibs = "2.2"
+netbeansApi = "RELEASE220"
+nashorn = "15.6"
+
+[libraries]
+profiler-oql = { module = "org.graalvm.visualvm.modules:org-graalvm-visualvm-lib-profiler-oql", version.ref = "visualvmLibs" }
+jfluid-heap = { module = "org.graalvm.visualvm.modules:org-graalvm-visualvm-lib-jfluid-heap", version.ref = "visualvmLibs" }
+nashorn-core = { module = "org.openjdk.nashorn:nashorn-core", version.ref = "nashorn" }

@@ -1,0 +1,8 @@
+var arr = [];
+heap.forEachObject(function(o) {
+  if (o.length > 255) {
+    arr.push(o);
+  }
+}, 'int[]')
+print('Found ' + arr.length + ' long int arrays');
+arr.length

@@ -22,3 +22,12 @@
 
 # Ignore Mac DS_Store files
 .DS_Store
+
+# Gradle
+/.gradle/
+/build/
+/headless-oql/build/
+!/gradle/wrapper/gradle-wrapper.jar
+
+# HPROF heap dump parser cache (created by HeapFactory)
+*.hprof.hwcache/
